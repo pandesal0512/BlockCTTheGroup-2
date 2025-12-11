@@ -1,7 +1,7 @@
 import java.util.*;
 import java.text.NumberFormat;
 
-
+//CORONA
 class PerformanceTracker extends Employee {
     private int performanceScore; // 0-100
     private ArrayList<String> achievements;
@@ -12,6 +12,8 @@ class PerformanceTracker extends Employee {
         this.achievements = new ArrayList<>();
     }
 
+    //LOPEZ
+
     // Calculate bonus based on performance (Abstraction - hides complex calculation)
     public String calculateBonus() {
         double rawSalary = getRawSalary();
@@ -21,6 +23,8 @@ class PerformanceTracker extends Employee {
         NumberFormat formatter = NumberFormat.getCurrencyInstance(Locale.US);
         return formatter.format(bonus);
     }
+
+    //LIM
 
     public void addAchievement(String achievement) {
         achievements.add(achievement);

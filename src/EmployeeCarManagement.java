@@ -1,5 +1,7 @@
 import java.util.*;
 
+//LIM
+
 public class EmployeeCarManagement {
     public static void main(String[] args) {
         System.out.println("EMPLOYEE & CAR MANAGEMENT");
@@ -14,7 +16,7 @@ public class EmployeeCarManagement {
         System.out.println("Employee Name: " + emp1.getEmployeeName());
         System.out.println("Employee Salary: " + emp1.getEmployeeSalary());
 
-        emp1.setEmployeeName("John Smith");
+        emp1.setEmployeeName("William Afton");
         System.out.println("\nAfter name change: " + emp1);
 
 

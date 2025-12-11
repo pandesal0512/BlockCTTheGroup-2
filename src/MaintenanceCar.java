@@ -1,6 +1,8 @@
 import java.util.*;
 import java.text.NumberFormat;
 
+//SANTIAGO
+
 class MaintenanceCar extends Car {
     private ArrayList<String> maintenanceHistory;
     private double totalMaintenanceCost;
@@ -13,6 +15,8 @@ class MaintenanceCar extends Car {
         this.lastServiceDate = "Never";
     }
 
+    //IVONE
+
     // Add maintenance record (Abstraction - hides internal list management)
     public void addMaintenance(String service, double cost, String date) {
         String record = date + " - " + service + " ($" + cost + ")";
@@ -20,6 +24,8 @@ class MaintenanceCar extends Car {
         totalMaintenanceCost += cost;
         lastServiceDate = date;
     }
+
+    //FREYRA
 
     // Calculate service recommendation based on mileage (Abstraction)
     public String getServiceRecommendation() {
@@ -33,6 +39,8 @@ class MaintenanceCar extends Car {
         }
         return "No service needed yet";
     }
+
+    //BARCELLANO
 
     public void recordTrip(double distanceTraveled) {
         updateMileage(getMileage() + distanceTraveled);

@@ -1,3 +1,5 @@
+//SAAVEDRA
+
 class Car {
     // Private instance variables (Encapsulation)
     private String company_name;
@@ -40,7 +42,7 @@ class Car {
         this.year = year;
     }
 
-    // Getter ONLY for mileage (read-only access)
+    // Getter for mileage (read-only access)
     public double getMileage() {
         return mileage;
     }
