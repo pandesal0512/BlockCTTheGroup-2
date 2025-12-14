@@ -9,9 +9,6 @@ public class EmployeeCarManagement {
         System.out.println("EMPLOYEE & CAR MANAGEMENT");
 
 
-        System.out.println("BASIC EMPLOYEE CLASS");
-
-
         Employee emp1 = new Employee(101, "John Doe", 75000.50);
         System.out.println("Created: " + emp1);
         System.out.println("Employee ID: " + emp1.getEmployeeId());
